@@ -73,13 +73,11 @@ h1 {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     background-color: #1a1a1a00;
     width: 100%;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 130px;
+    padding-bottom: 20px;
 }
 
 #git {
@@ -87,7 +85,7 @@ footer {
     max-width: 100px;
     border-radius: 40px;
     transition: 0.4s;
-    padding: 5px;
+    padding: 20px;
 
 }
 
@@ -97,7 +95,7 @@ footer {
     opacity: 80%;
     border-radius: 20px;
     transition: 0.4s;
-    padding: 20px;
+    padding: 5px;
 }
 
 #result {
@@ -129,6 +127,120 @@ footer {
         font-size: 48px;
         max-width: 450px;  
 
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    h1 {
+        font-size: 48px;
+        max-width: 400px; 
+        padding-top: 30px; 
+        padding-bottom: 30px; 
+
+    }
+
+    .template {
+        max-width: 350px;
+    }
+
+    #result {
+        max-width: 300px;
+        margin: auto;
+        margin-top: 40px;
+
+    }
+
+
+}
+
+@media (max-width: 400px) {
+
+    h1 {
+        font-size: 46px;
+        max-width: 370px; 
+        padding-top: 40px;
+        padding-bottom: 30px;
+
+    }
+
+    #result {
+        max-width: 350px;
+        margin: auto;
+        margin-top: 30px;
+
+    }
+
+    .template {
+        max-width: 300px;
+    }
+
+}
+
+@media (max-width: 380px) {
+
+    h1 {
+        font-size: 40px;
+        max-width: 300px; 
+
+    }
+
+    #result {
+        max-width: 300px;
+        margin: auto;
+        margin-top: 30px;
+
+    }
+
+    .template {
+        max-width: 280px;
+    }
+
+}
+
+@media (max-width: 330px) {
+
+    h1 {
+        font-size: 36px;
+        max-width: 280px; 
+        padding-top: 40px;
+        padding-bottom: 30px;
+
+    }
+
+    #result {
+        max-width: 250px;
+        margin: auto;
+        margin-top: 30px;
+
+    }
+
+    .template {
+        max-width: 280px;
+    }
+
+}
+
+@media (max-width: 300px) {
+
+    h1 {
+        font-size: 32px;
+        max-width: 250px; 
+        padding-top: 40px;
+        padding-bottom: 30px;
+
+    }
+
+    #result {
+        max-width: 230px;
+        margin: auto;
+        margin-top: 30px;
+
+    }
+
+    .template {
+        max-width: 230px;
     }
 
 }
